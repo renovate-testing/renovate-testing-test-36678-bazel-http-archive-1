@@ -40,8 +40,8 @@ rules_js_dependencies()
 
 http_archive(
     name = "rules_pkg",
-    sha256 = "8c20f74bca25d2d442b327ae26768c02cf3c99e93fad0381f32be9aab1967675",
-    urls = ["https://github.com/bazelbuild/rules_pkg/releases/download/0.8.1/rules_pkg-0.8.1.tar.gz"],
+    sha256 = "b7215c636f22c1849f1c3142c72f4b954bb12bb8dcf3cbe229ae6e69cc6479db",
+    urls = ["https://github.com/bazelbuild/rules_pkg/releases/download/1.1.0/rules_pkg-1.1.0.tar.gz"],
 )
 
 load("@bazel_tools//tools/sh:sh_configure.bzl", "sh_configure")
