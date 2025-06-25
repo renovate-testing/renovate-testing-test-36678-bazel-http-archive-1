@@ -1,9 +1,4 @@
 {
-  packageRules: [
-    // Group Bazel updates
-    {
-      groupName: 'bazel dependencies',
-      matchManagers: ['bazel'],
-    },
-  ],
+  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0
 }
